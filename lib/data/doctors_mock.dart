@@ -1,0 +1,40 @@
+import 'package:emart_app/Models/doctor.dart';
+
+final List<Doctor> doctorsMock = [
+  Doctor(
+    id: "1",
+    name: "Dr Marcus Horizon",
+    specialty: "Cardiologist",
+    bio: "Heart specialist with modern medical treatments.",
+    experience: 10,
+    location: "Tunis",
+    workingHours: "09:00 - 17:00",
+    workingDays: ["Mon", "Wed", "Fri"],
+    image: "assets/icons/male-doctor.png",
+    rating: 4.7,
+  ),
+  Doctor(
+    id: "2",
+    name: "Dr Sarah Smith",
+    specialty: "Dermatologist",
+    bio: "Skin care expert with international experience.",
+    experience: 8,
+    location: "Ariana",
+    workingHours: "10:00 - 16:00",
+    workingDays: ["Tue", "Thu"],
+    image: "assets/icons/doctor2.png",
+    rating: 4.5,
+  ),
+  Doctor(
+    id: "3",
+    name: "Dr John Lee",
+    specialty: "Neurologist",
+    bio: "Specialist in neurological disorders.",
+    experience: 12,
+    location: "Sousse",
+    workingHours: "08:00 - 14:00",
+    workingDays: ["Mon", "Tue", "Thu"],
+    image: "assets/icons/black-doctor.png",
+    rating: 4.8,
+  ),
+];
